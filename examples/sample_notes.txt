@@ -1,0 +1,55 @@
+# Machine Learning Fundamentals
+
+## Supervised Learning
+
+Supervised learning is a type of machine learning where the algorithm learns from labeled training data.
+The goal is to learn a mapping function from input features to output labels.
+
+Common algorithms include:
+- Linear Regression: predicts continuous values
+- Logistic Regression: predicts binary or multi-class labels
+- Decision Trees: builds a tree-like decision model
+- Random Forests: ensemble of decision trees
+- Support Vector Machines (SVM): finds optimal decision boundaries
+
+Key concepts:
+- Training data: labeled examples used to train the model
+- Test data: unlabeled examples used to evaluate performance
+- Overfitting: when model learns training data too well, performs poorly on new data
+- Underfitting: when model is too simple to capture underlying patterns
+
+## Unsupervised Learning
+
+Unsupervised learning finds patterns in unlabeled data without predefined target outputs.
+
+Common algorithms:
+- K-Means Clustering: partitions data into k clusters
+- Hierarchical Clustering: builds tree of nested clusters
+- Principal Component Analysis (PCA): reduces dimensionality
+- Autoencoders: neural networks for dimensionality reduction
+
+## Deep Learning
+
+Deep learning uses neural networks with multiple layers to learn hierarchical representations.
+
+Architectures:
+- Convolutional Neural Networks (CNN): designed for image processing
+- Recurrent Neural Networks (RNN): processes sequential data
+- Transformers: attention-based architecture for NLP tasks
+
+## Model Evaluation Metrics
+
+Accuracy: percentage of correct predictions
+Precision: true positives / (true positives + false positives)
+Recall: true positives / (true positives + false negatives)
+F1 Score: harmonic mean of precision and recall
+ROC-AUC: measures performance across different thresholds
+
+## Best Practices
+
+1. Start with simple models before complex ones
+2. Ensure data quality and proper preprocessing
+3. Use cross-validation to assess model generalization
+4. Monitor for overfitting with separate validation sets
+5. Document your experiments and results
+6. Use appropriate evaluation metrics for your problem
